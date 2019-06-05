@@ -20,6 +20,13 @@ namespace WebApplication1.Controllers
             return View();
         }
 
+        public ActionResult MyAction1()
+        {
+            ViewBag.Message = "第一个Action.";
+            ViewBag.Message = "201831980210";
+            return View();
+        }
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
